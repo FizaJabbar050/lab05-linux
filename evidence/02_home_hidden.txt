@@ -1,0 +1,20 @@
+total 76
+-rw-------  1 fizajabbar050 fizajabbar050  419 Oct 16 03:45 
+-rw-r--r--  1 fizajabbar050 fizajabbar050  105 Oct 16 03:45 .pub
+drwxr-x--- 11 fizajabbar050 fizajabbar050 4096 Oct 16 04:23 .
+drwxr-xr-x  3 root          root          4096 Sep 13 15:43 ..
+-rw-------  1 fizajabbar050 fizajabbar050 3754 Oct 16 03:31 .bash_history
+-rw-r--r--  1 fizajabbar050 fizajabbar050  220 Feb 13  2026 .bash_logout
+-rw-r--r--  1 fizajabbar050 fizajabbar050 3771 Feb 13  2026 .bashrc
+drwx------  2 fizajabbar050 fizajabbar050 4096 Sep 13 16:16 .cache
+-rw-rw-r--  1 fizajabbar050 fizajabbar050  188 Oct 16 04:15 .gitconfig
+-rw-------  1 fizajabbar050 fizajabbar050   20 Sep 23 04:40 .lesshst
+drwx------  3 fizajabbar050 fizajabbar050 4096 Sep 23 04:33 .local
+-rw-r--r--  1 fizajabbar050 fizajabbar050  807 Feb 13  2026 .profile
+drwx------  2 fizajabbar050 fizajabbar050 4096 Sep 23 03:41 .ssh
+drwxrwxr-x  3 fizajabbar050 fizajabbar050 4096 Oct  7 08:48 Assignment01
+drwxrwxr-x  3 fizajabbar050 fizajabbar050 4096 Sep 23 04:40 ClassDemo
+drwxrwxr-x  3 fizajabbar050 fizajabbar050 4096 Oct  5 17:29 Gitea
+drwxrwxr-x  3 fizajabbar050 fizajabbar050 4096 Oct  7 15:18 fizajabbar050.github.io
+drwxrwxr-x  5 fizajabbar050 fizajabbar050 4096 Oct 16 04:24 lab05-linux
+drwxrwxr-x  2 fizajabbar050 fizajabbar050 4096 Sep 19 10:21 mylab
