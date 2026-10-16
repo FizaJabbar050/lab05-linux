@@ -1,0 +1,27 @@
+Oct 16 05:25:11 ubuntu sudo[24999]: fizajabbar050 : TTY=/dev/tty1 ; PWD=/home/fizajabbar050/lab05-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+Oct 16 05:25:12 ubuntu adduser[25010]: Adding user `lab5user' ...
+Oct 16 05:25:12 ubuntu adduser[25010]: Adding new group `lab5user' (1001) ...
+Oct 16 05:25:12 ubuntu groupadd[25014]: group added to /etc/group: name=lab5user, GID=1001
+Oct 16 05:25:12 ubuntu groupadd[25014]: group added to /etc/gshadow: name=lab5user
+Oct 16 05:25:12 ubuntu groupadd[25014]: new group: name=lab5user, GID=1001
+Oct 16 05:25:12 ubuntu adduser[25010]: Adding new user `lab5user' (1001) with group `lab5user (1001)' ...
+Oct 16 05:25:12 ubuntu useradd[25019]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/1
+Oct 16 05:25:12 ubuntu adduser[25010]: Creating home directory `/home/lab5user' ...
+Oct 16 05:26:20 ubuntu adduser[25010]: `/bin/passwd lab5user' failed with status 10. Continuing.
+Oct 16 05:27:00 ubuntu adduser[25010]: `/bin/passwd lab5user' failed with status 10. Continuing.
+Oct 16 05:27:13 ubuntu adduser[25010]: `/bin/passwd lab5user' failed with status 10. Continuing.
+Oct 16 05:29:39 ubuntu passwd[25048]: pam_unix(passwd:chauthtok): password changed for lab5user
+Oct 16 05:29:49 ubuntu chfn[25055]: changed user 'lab5user' information
+Oct 16 05:29:50 ubuntu adduser[25010]: Adding new user `lab5user' to supplemental / extra groups `users' ...
+Oct 16 05:29:50 ubuntu adduser[25010]: Adding user `lab5user' to group `users' ...
+Oct 16 05:29:50 ubuntu gpasswd[25063]: members of group users set by root to fizajabbar050,lab5user
+Oct 16 05:31:55 ubuntu su[25089]: pam_unix(su-l:auth): authentication failure; logname=fizajabbar050 uid=1000 euid=0 tty=/dev/tty1 ruser=fizajabbar050 rhost=  user=lab5user
+Oct 16 05:31:57 ubuntu su[25089]: FAILED SU (to lab5user) fizajabbar050 on tty1
+Oct 16 05:33:08 ubuntu unix_chkpwd[25302]: password check failed for user (lab5user)
+Oct 16 05:33:08 ubuntu su[25300]: pam_unix(su-l:auth): authentication failure; logname=fizajabbar050 uid=1000 euid=0 tty=/dev/tty1 ruser=fizajabbar050 rhost=  user=lab5user
+Oct 16 05:33:10 ubuntu su[25300]: FAILED SU (to lab5user) fizajabbar050 on tty1
+Oct 16 05:33:38 ubuntu su[25314]: (to lab5user) fizajabbar050 on tty1
+Oct 16 05:33:38 ubuntu su[25314]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by fizajabbar050(uid=1000)
+Oct 16 05:37:11 ubuntu su[25314]: pam_unix(su-l:session): session closed for user lab5user
+Oct 16 05:37:39 ubuntu sudo[25422]: fizajabbar050 : TTY=/dev/tty1 ; PWD=/home/fizajabbar050/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+Oct 16 05:40:34 ubuntu sudo[25446]: fizajabbar050 : TTY=/dev/tty1 ; PWD=/home/fizajabbar050/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
